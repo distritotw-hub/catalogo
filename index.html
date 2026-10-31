@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DISTRITO® · Catálogo</title>
+<meta name="description" content="DISTRITO® — Hype & streetwear en Trelew. Corteiz, Nike Tech, Jordan, Hellstar y más. Stock limitado, envíos a todo el país.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="DISTRITO® · Catálogo">
+<meta property="og:description" content="Hype & streetwear. Stock limitado. Envíos a todo el país.">
+<meta property="og:image" content="https://distritotw-hub.github.io/catalogo/assets/logo.png">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   CONFIGURACIÓN RÁPIDA (colores) — podés cambiarlos acá
+   ========================================================= */
+:root{
+  --negro:#0a0a0a;
+  --negro-2:#151515;
+  --blanco:#ffffff;
+  --hueso:#f4f4f2;
+  --gris:#8a8a8a;
+  --linea:#262626;
+  --rojo:#e10600;      /* acento "sangre" 🩸 */
+  --verde-wa:#25d366;
+  --radio:14px;
+  --display:'Anton', Impact, 'Arial Narrow', sans-serif;
+  --texto:'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--negro);color:var(--blanco);font-family:var(--texto);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* ---------- HEADER ---------- */
+.header{position:sticky;top:0;z-index:40;background:rgba(10,10,10,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .3s, padding .3s}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;transition:height .3s}
+.header.chico{border-color:var(--linea)}
+.header.chico .wrap{height:60px}
+.logo{height:68px;transition:height .3s}
+.header.chico .logo{height:46px}
+.icono-btn{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;transition:background .2s}
+.icono-btn:hover{background:var(--negro-2)}
+.icono-btn svg{width:22px;height:22px}
+
+/* ---------- MARQUESINA ---------- */
+.marquesina{background:var(--rojo);color:var(--blanco);overflow:hidden;white-space:nowrap;font-family:var(--display);letter-spacing:.06em;font-size:14px;padding:8px 0}
+.marquesina-track{display:inline-flex;gap:36px;animation:marq 28s linear infinite;padding-left:36px}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ---------- HERO ---------- */
+.hero{padding:20px 0 8px}
+.hero-titulo{font-family:var(--display);font-size:clamp(44px,11vw,110px);line-height:.9;letter-spacing:.01em;text-transform:uppercase}
+.hero-titulo span{color:transparent;-webkit-text-stroke:1.5px var(--blanco)}
+.hero-sub{color:var(--gris);margin:10px 0 18px;font-size:15px;max-width:520px}
+.slider{position:relative;border-radius:var(--radio);overflow:hidden;background:var(--hueso)}
+.slides{display:flex;transition:transform .5s cubic-bezier(.7,0,.3,1)}
+.slide{min-width:100%;display:grid;grid-template-columns:1fr;position:relative;color:var(--negro);cursor:pointer}
+.slide img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}
+.slide-info{position:absolute;left:0;right:0;bottom:0;padding:18px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:var(--blanco)}
+.slide-tag{display:inline-block;background:var(--rojo);font-size:11px;font-weight:800;letter-spacing:.08em;padding:4px 8px;border-radius:4px;text-transform:uppercase}
+.slide-nombre{font-family:var(--display);font-size:clamp(24px,5vw,40px);text-transform:uppercase;line-height:1;margin:8px 0 4px}
+.slide-precio{font-weight:700;margin-bottom:12px}
+.flecha{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:rgba(10,10,10,.75);color:#fff;display:grid;place-items:center;z-index:2}
+.flecha.izq{left:10px}.flecha.der{right:10px}
+.dots{position:absolute;top:14px;right:14px;display:flex;gap:6px;z-index:2}
+.dot{width:8px;height:8px;border-radius:99px;background:rgba(0,0,0,.25);transition:all .3s}
+.dot.activo{width:22px;background:var(--negro)}
+@media(min-width:820px){
+  .slide{grid-template-columns:1.1fr 1fr;background:var(--hueso)}
+  .slide-info{position:static;background:none;color:var(--negro);display:flex;flex-direction:column;justify-content:center;padding:40px}
+  .slide-nombre{font-size:52px}
+  .slide img{aspect-ratio:auto;height:480px}
+}
+
+/* ---------- BOTONES ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase;padding:14px 20px;border-radius:999px;transition:transform .15s, background .2s}
+.btn:active{transform:scale(.97)}
+.btn-blanco{background:var(--blanco);color:var(--negro)}
+.btn-negro{background:var(--negro);color:var(--blanco)}
+.btn-wa{background:var(--verde-wa);color:#06290f}
+.btn-borde{border:1.5px solid currentColor}
+.btn svg{width:18px;height:18px}
+
+/* ---------- FILTROS ---------- */
+.barra{position:sticky;top:60px;z-index:30;background:var(--negro);padding:14px 0 10px}
+.buscador{display:flex;align-items:center;gap:10px;background:var(--negro-2);border:1px solid var(--linea);border-radius:999px;padding:0 16px;height:46px;margin-bottom:12px}
+.buscador input{flex:1;background:none;border:0;color:var(--blanco);font:inherit;font-size:15px;outline:none}
+.buscador svg{width:18px;height:18px;color:var(--gris)}
+.pills{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.pills::-webkit-scrollbar{display:none}
+.pill{flex:none;padding:9px 16px;border-radius:999px;border:1px solid var(--linea);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;transition:all .2s}
+.pill.activa{background:var(--blanco);color:var(--negro);border-color:var(--blanco)}
+
+/* ---------- GRILLA ---------- */
+.seccion-titulo{display:flex;align-items:baseline;justify-content:space-between;margin:18px 0 14px}
+.seccion-titulo h2{font-family:var(--display);font-size:32px;text-transform:uppercase;letter-spacing:.02em}
+.contador{color:var(--gris);font-size:13px}
+.grilla{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:720px){.grilla{grid-template-columns:repeat(3,1fr);gap:18px}}
+@media(min-width:1024px){.grilla{grid-template-columns:repeat(4,1fr)}}
+.card{position:relative;display:flex;flex-direction:column;cursor:pointer}
+.card-foto{position:relative;border-radius:var(--radio);overflow:hidden;background:#fff;aspect-ratio:1/1}
+.card-foto img{width:100%;height:100%;object-fit:contain;transition:transform .5s, opacity .3s}
+.card-foto img.alt{position:absolute;inset:0;opacity:0}
+@media(hover:hover){.card:hover .card-foto img.alt{opacity:1}.card:hover .card-foto img{transform:scale(1.04)}}
+.badge{position:absolute;top:10px;left:10px;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:4px;background:var(--negro);color:var(--blanco);z-index:2}
+.badge.rojo{background:var(--rojo)}
+.card.agotado .card-foto img{filter:grayscale(1);opacity:.45}
+.card-add{position:absolute;right:8px;bottom:8px;width:38px;height:38px;border-radius:50%;background:var(--negro);color:#fff;display:grid;place-items:center;z-index:2}
+.card-add svg{width:18px;height:18px}
+.card-cat{color:var(--gris);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-top:10px}
+.card-nombre{font-weight:700;font-size:14px;line-height:1.25;margin:4px 0 6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-precio{font-weight:800;font-size:15px}
+.card-precio.consultar{font-size:13px;color:var(--gris);font-weight:600}
+.vacio{grid-column:1/-1;text-align:center;color:var(--gris);padding:60px 0}
+.cargando{grid-column:1/-1;display:grid;place-items:center;padding:80px 0}
+.spinner{width:34px;height:34px;border:3px solid var(--linea);border-top-color:var(--blanco);border-radius:50%;animation:gira 1s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+
+/* ---------- MODAL ---------- */
+.modal{position:fixed;inset:0;z-index:60;display:none}
+.modal.abierto{display:block}
+.modal-fondo{position:absolute;inset:0;background:rgba(0,0,0,.75);animation:fade .25s}
+.modal-caja{position:absolute;left:0;right:0;bottom:0;max-height:94vh;overflow-y:auto;background:var(--negro);border-radius:22px 22px 0 0;animation:sube .35s cubic-bezier(.2,.8,.2,1);border:1px solid var(--linea)}
+@media(min-width:820px){
+  .modal-caja{top:50%;left:50%;right:auto;bottom:auto;transform:translate(-50%,-50%);width:min(980px,94vw);max-height:90vh;border-radius:22px;display:grid;grid-template-columns:1.05fr 1fr;animation:fade .25s}
+}
+@keyframes sube{from{transform:translateY(100%)}}
+@keyframes fade{from{opacity:0}}
+.modal-cerrar{position:absolute;top:12px;right:12px;z-index:5;width:40px;height:40px;border-radius:50%;background:var(--negro);color:#fff;display:grid;place-items:center;border:1px solid var(--linea)}
+.galeria{position:relative;background:#fff;overflow:hidden}
+.galeria-track{display:flex;transition:transform .4s ease}
+.galeria-track img{min-width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}
+.galeria .dots{top:auto;bottom:14px;left:0;right:0;justify-content:center}
+.galeria .flecha{width:36px;height:36px}
+.miniaturas{display:flex;gap:8px;padding:10px 16px 0}
+.miniaturas button{width:58px;height:58px;border-radius:10px;overflow:hidden;background:#fff;border:2px solid transparent;opacity:.6}
+.miniaturas button.activa{border-color:var(--blanco);opacity:1}
+.miniaturas img{width:100%;height:100%;object-fit:contain}
+.modal-info{padding:20px 20px 28px}
+.modal-info .card-cat{margin:0}
+.modal-nombre{font-family:var(--display);font-size:clamp(30px,6vw,42px);text-transform:uppercase;line-height:1;margin:8px 0 10px}
+.modal-precio{font-size:22px;font-weight:800;margin-bottom:14px}
+.modal-precio.consultar{font-size:16px;color:var(--gris)}
+.modal-desc{color:#cfcfcf;line-height:1.6;font-size:15px}
+.modal-bloque{margin-top:18px;padding-top:16px;border-top:1px solid var(--linea)}
+.modal-bloque h4{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gris);margin-bottom:10px}
+.caracteristicas{list-style:none;display:grid;gap:8px}
+.caracteristicas li{display:flex;gap:10px;font-size:14px;color:#e6e6e6}
+.caracteristicas li::before{content:"";flex:none;width:6px;height:6px;margin-top:7px;background:var(--rojo);transform:rotate(45deg)}
+.talles{display:flex;flex-wrap:wrap;gap:8px}
+.talle{min-width:44px;padding:8px 10px;text-align:center;border:1px solid var(--linea);border-radius:8px;font-weight:700;font-size:13px}
+.aviso{display:flex;gap:10px;align-items:flex-start;background:var(--negro-2);border-radius:12px;padding:12px 14px;font-size:13px;color:#cfcfcf;margin-top:16px}
+.aviso b{color:var(--blanco)}
+.modal-acciones{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:20px;position:sticky;bottom:0;padding:12px 0 4px;background:linear-gradient(transparent,var(--negro) 30%)}
+.btn-share{width:52px;padding:0;border:1.5px solid var(--linea)}
+
+/* ---------- FOOTER ---------- */
+.beneficios{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:56px 0 0}
+@media(min-width:900px){.beneficios{grid-template-columns:repeat(4,1fr)}}
+.beneficio{background:var(--negro-2);border:1px solid var(--linea);border-radius:var(--radio);padding:18px}
+.beneficio svg{width:28px;height:28px;margin-bottom:12px;color:var(--rojo)}
+.beneficio h3{font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.beneficio p{font-size:13px;color:var(--gris);line-height:1.5}
+.footer{margin-top:56px;border-top:1px solid var(--linea);padding:40px 0 110px;text-align:center}
+.footer .logo{height:110px;margin:0 auto 14px}
+.footer-frase{font-family:var(--display);font-size:22px;text-transform:uppercase;letter-spacing:.04em}
+.footer-frase em{font-style:normal;color:var(--rojo)}
+.redes{display:flex;justify-content:center;gap:12px;margin:20px 0}
+.redes a{width:46px;height:46px;border-radius:50%;border:1px solid var(--linea);display:grid;place-items:center}
+.redes svg{width:20px;height:20px}
+.legal{color:var(--gris);font-size:12px}
+
+/* ---------- WHATSAPP FLOTANTE + TOAST ---------- */
+.wa-flotante{position:fixed;right:16px;bottom:18px;z-index:50;width:58px;height:58px;border-radius:50%;background:var(--verde-wa);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.wa-flotante svg{width:30px;height:30px;color:#fff}
+.toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:var(--blanco);color:var(--negro);font-weight:700;font-size:14px;padding:12px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:all .3s;z-index:80}
+.toast.visible{opacity:1;transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="wrap">
+    <a class="icono-btn" href="https://www.instagram.com/distrito.tw/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    </a>
+    <a href="./" aria-label="DISTRITO inicio"><img class="logo" src="assets/logo.png" alt="DISTRITO®"></a>
+    <button class="icono-btn" id="btnBuscar" aria-label="Buscar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="marquesina" aria-hidden="true"><div class="marquesina-track" id="marquesina"></div></div>
+
+<main class="wrap">
+  <section class="hero">
+    <h1 class="hero-titulo">No es para <span>todos.</span></h1>
+    <p class="hero-sub">Hype &amp; streetwear seleccionado en Trelew. Corteiz, Nike Tech, Jordan, Hellstar y más. Stock limitado, envíos a todo el país.</p>
+    <div class="slider" id="slider">
+      <div class="slides" id="slides"></div>
+      <div class="dots" id="dots"></div>
+      <button class="flecha izq" id="prev" aria-label="Anterior"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 18-6-6 6-6"/></svg></button>
+      <button class="flecha der" id="next" aria-label="Siguiente"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+  </section>
+
+  <div class="barra" id="catalogo">
+    <label class="buscador">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busqueda" type="search" placeholder="Buscar: Corteiz, Tech Fleece, Jordan…" autocomplete="off">
+    </label>
+    <div class="pills" id="pills"></div>
+  </div>
+
+  <div class="seccion-titulo"><h2 id="tituloSeccion">Catálogo</h2><span class="contador" id="contador"></span></div>
+  <div class="grilla" id="grilla"><div class="cargando"><div class="spinner"></div></div></div>
+
+  <section class="beneficios" id="beneficios"></section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <img class="logo" src="assets/logo.png" alt="DISTRITO®">
+    <p class="footer-frase">Stock limitado <em>·</em> Solo en Distrito</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/distrito.tw/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      <a id="waFooter" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm0-21.6A11.8 11.8 0 0 0 1.9 18l-1.7 6 6.2-1.6A11.8 11.8 0 1 0 12 .2z"/></svg></a>
+    </div>
+    <p class="legal">© <span id="anio"></span> DISTRITO® · Trelew, Chubut, Argentina</p>
+  </div>
+</footer>
+
+<a class="wa-flotante" id="waFlotante" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm0-21.6A11.8 11.8 0 0 0 1.9 18l-1.7 6 6.2-1.6A11.8 11.8 0 1 0 12 .2z"/></svg>
+</a>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-fondo" data-cerrar></div>
+  <div class="modal-caja" role="dialog" aria-modal="true" aria-labelledby="modalNombre">
+    <button class="modal-cerrar" data-cerrar aria-label="Cerrar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <div>
+      <div class="galeria" id="galeria">
+        <div class="galeria-track" id="galeriaTrack"></div>
+        <button class="flecha izq" id="gPrev" aria-label="Foto anterior"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 18-6-6 6-6"/></svg></button>
+        <button class="flecha der" id="gNext" aria-label="Foto siguiente"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></button>
+        <div class="dots" id="gDots"></div>
+      </div>
+      <div class="miniaturas" id="miniaturas"></div>
+    </div>
+    <div class="modal-info" id="modalInfo"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   CONFIGURACIÓN — lo único que necesitás tocar acá
+   ========================================================= */
+const CONFIG = {
+  // URL de tu Google Apps Script (termina en /exec). Si está vacía, usa data/productos.json
+  SHEET_URL: '',
+  // WhatsApp de ventas: código de país + número, sin + ni espacios
+  WHATSAPP: '5492804574174',
+  INSTAGRAM: 'https://www.instagram.com/distrito.tw/',
+  MARQUESINA: ['Stock limitado 🩸', 'Solo en DISTRITO 🔥', 'Envíos a todo el país 📦', 'Punto de encuentro en Trelew 📍', 'No es para todos 👑'],
+  BENEFICIOS: [
+    { icono: 'envio', titulo: 'Envíos a todo el país', texto: 'Despachamos tu pedido a cualquier punto de Argentina.' },
+    { icono: 'pin', titulo: 'Punto de encuentro', texto: 'Si sos de Trelew, Chubut, coordinamos la entrega en persona.' },
+    { icono: 'pago', titulo: 'Medios de pago', texto: 'Efectivo, transferencia o depósito bancario.' },
+    { icono: 'stock', titulo: 'Stock limitado', texto: 'Ingresan pocas unidades por modelo, por eso no realizamos cambios.' }
+  ]
+};
+/* ========================================================= */
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let productos = [], categoriaActiva = 'Todo', textoBusqueda = '';
+
+const ICONOS = {
+  envio: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>',
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>',
+  pago: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/><path d="M2.5 10h19M6 15h4"/></svg>',
+  stock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 18 7 7l5 6 4-9 5 14z"/></svg>'
+};
+
+function precioTexto(p) {
+  const n = String(p.Precio || '').replace(/[^\d]/g, '');
+  if (!n || n === '0') return null;
+  return '$' + Number(n).toLocaleString('es-AR');
+}
+const agotado = p => String(p.Estado || '').toLowerCase().startsWith('agot');
+const fotos = p => ['Foto1','Foto2','Foto3','Foto4'].map(k => p[k]).filter(Boolean);
+const lineas = t => String(t || '').split(/\r?\n/).map(l => l.replace(/^[•\-\*·\s]+/, '').trim()).filter(Boolean);
+const talles = t => String(t || '').split(/[-,/|]/).map(s => s.trim()).filter(Boolean);
+const linkProducto = p => location.origin + location.pathname + '?id=' + encodeURIComponent(p.ID);
+const waLink = msg => 'https://wa.me/' + CONFIG.WHATSAPP + '?text=' + encodeURIComponent(msg);
+
+async function cargar() {
+  const fuentes = CONFIG.SHEET_URL ? [CONFIG.SHEET_URL, 'data/productos.json'] : ['data/productos.json'];
+  for (const url of fuentes) {
+    try {
+      const r = await fetch(url, { cache: 'no-store' });
+      const d = await r.json();
+      const lista = d.productos || d;
+      if (Array.isArray(lista) && lista.length) return lista.filter(p => p.Producto);
+    } catch (e) { console.warn('No se pudo leer', url, e); }
+  }
+  return [];
+}
+
+/* ---------- HERO ---------- */
+let slideActual = 0, timerSlider;
+function armarHero() {
+  const disp = productos.filter(p => !agotado(p) && fotos(p).length);
+  const elegidos = [...disp].sort(() => Math.random() - .5).slice(0, 3);
+  $('#slides').innerHTML = elegidos.map(p => {
+    const pr = precioTexto(p);
+    return `<article class="slide" data-id="${esc(p.ID)}">
+      <img src="${esc(fotos(p)[0])}" alt="${esc(p.Producto)}" loading="eager">
+      <div class="slide-info">
+        <span class="slide-tag">${esc(p.Categoria || 'Drop')}</span>
+        <h3 class="slide-nombre">${esc(p.Producto)}</h3>
+        <p class="slide-precio">${pr ? pr : 'Consultá el precio'}</p>
+        <span><span class="btn btn-negro">Lo quiero</span></span>
+      </div></article>`;
+  }).join('');
+  $('#dots').innerHTML = elegidos.map((_, i) => `<span class="dot${i ? '' : ' activo'}"></span>`).join('');
+  document.querySelectorAll('.slide').forEach(s => s.onclick = () => abrir(s.dataset.id));
+  irSlide(0);
+}
+function irSlide(i) {
+  const n = $('#slides').children.length; if (!n) return;
+  slideActual = (i + n) % n;
+  $('#slides').style.transform = `translateX(-${slideActual * 100}%)`;
+  [...$('#dots').children].forEach((d, k) => d.classList.toggle('activo', k === slideActual));
+  clearInterval(timerSlider); timerSlider = setInterval(() => irSlide(slideActual + 1), 5000);
+}
+$('#prev').onclick = e => { e.stopPropagation(); irSlide(slideActual - 1); };
+$('#next').onclick = e => { e.stopPropagation(); irSlide(slideActual + 1); };
+swipe($('#slider'), d => irSlide(slideActual + d));
+
+/* ---------- CATEGORÍAS Y GRILLA ---------- */
+function armarPills() {
+  const cats = ['Todo', ...new Set(productos.map(p => p.Categoria).filter(Boolean))];
+  $('#pills').innerHTML = cats.map(c => `<button class="pill${c === categoriaActiva ? ' activa' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+  document.querySelectorAll('.pill').forEach(b => b.onclick = () => {
+    categoriaActiva = b.dataset.cat; armarPills(); armarGrilla();
+  });
+}
+function armarGrilla() {
+  const q = textoBusqueda.toLowerCase();
+  const lista = productos
+    .filter(p => categoriaActiva === 'Todo' || p.Categoria === categoriaActiva)
+    .filter(p => !q || [p.Producto, p.Categoria, p.Descripcion].join(' ').toLowerCase().includes(q))
+    .sort((a, b) => agotado(a) - agotado(b));
+  $('#tituloSeccion').textContent = categoriaActiva === 'Todo' ? 'Catálogo' : categoriaActiva;
+  $('#contador').textContent = lista.length + (lista.length === 1 ? ' producto' : ' productos');
+  if (!lista.length) { $('#grilla').innerHTML = '<p class="vacio">No encontramos productos. Probá con otra búsqueda.</p>'; return; }
+  $('#grilla').innerHTML = lista.map(p => {
+    const f = fotos(p), pr = precioTexto(p), ag = agotado(p);
+    return `<article class="card${ag ? ' agotado' : ''}" data-id="${esc(p.ID)}">
+      <div class="card-foto">
+        ${ag ? '<span class="badge">Agotado</span>' : ''}
+        <img src="${esc(f[0] || 'assets/logo.png')}" alt="${esc(p.Producto)}" loading="lazy">
+        ${f[1] && !ag ? `<img class="alt" src="${esc(f[1])}" alt="" loading="lazy">` : ''}
+        <span class="card-add" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 7h12l-1 13H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+      </div>
+      <p class="card-cat">${esc(p.Categoria)}</p>
+      <h3 class="card-nombre">${esc(p.Producto)}</h3>
+      <p class="card-precio${pr ? '' : ' consultar'}">${ag ? 'Sin stock' : (pr || 'Consultar precio')}</p>
+    </article>`;
+  }).join('');
+  document.querySelectorAll('.card').forEach(c => c.onclick = () => abrir(c.dataset.id));
+}
+$('#busqueda').addEventListener('input', e => { textoBusqueda = e.target.value.trim(); armarGrilla(); });
+$('#btnBuscar').onclick = () => { $('#catalogo').scrollIntoView(); setTimeout(() => $('#busqueda').focus(), 400); };
+
+/* ---------- MODAL ---------- */
+let fotoActual = 0;
+function abrir(id) {
+  const p = productos.find(x => String(x.ID) === String(id)); if (!p) return;
+  const f = fotos(p), pr = precioTexto(p), ag = agotado(p), car = lineas(p.Caracteristicas), tl = talles(p.Talles);
+  $('#galeriaTrack').innerHTML = f.map(u => `<img src="${esc(u)}" alt="${esc(p.Producto)}">`).join('');
+  $('#gDots').innerHTML = f.length > 1 ? f.map(() => '<span class="dot"></span>').join('') : '';
+  $('#miniaturas').innerHTML = f.length > 1 ? f.map((u, i) => `<button data-i="${i}"><img src="${esc(u)}" alt=""></button>`).join('') : '';
+  $('#gPrev').style.display = $('#gNext').style.display = f.length > 1 ? '' : 'none';
+  document.querySelectorAll('#miniaturas button').forEach(b => b.onclick = () => irFoto(+b.dataset.i));
+  irFoto(0);
+
+  const msg = ag
+    ? `Hola DISTRITO! 👑 Vi que el *${p.Producto}* está agotado. ¿Va a volver a ingresar?\n${linkProducto(p)}`
+    : `Hola DISTRITO! 👑 Me interesa este producto:\n*${p.Producto}*\nPrecio: ${pr || 'a consultar'}\n${linkProducto(p)}\n¿Tienen talle disponible?`;
+
+  $('#modalInfo').innerHTML = `
+    <p class="card-cat">${esc(p.Categoria)}${ag ? ' · <span style="color:var(--rojo)">Agotado</span>' : ''}</p>
+    <h2 class="modal-nombre" id="modalNombre">${esc(p.Producto)}</h2>
+    <p class="modal-precio${pr ? '' : ' consultar'}">${pr || 'Consultá el precio por WhatsApp'}</p>
+    <p class="modal-desc">${esc(p.Descripcion)}</p>
+    ${tl.length ? `<div class="modal-bloque"><h4>Talles disponibles</h4><div class="talles">${tl.map(t => `<span class="talle">${esc(t)}</span>`).join('')}</div></div>` : ''}
+    ${car.length ? `<div class="modal-bloque"><h4>Características</h4><ul class="caracteristicas">${car.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
+    <div class="aviso"><span>📦</span><span><b>Envíos a todo el país</b> o punto de encuentro en Trelew. Pagás en efectivo, transferencia o depósito. Stock limitado: sin cambios.</span></div>
+    <div class="modal-acciones">
+      <a class="btn btn-wa" href="${waLink(msg)}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm0-21.6A11.8 11.8 0 0 0 1.9 18l-1.7 6 6.2-1.6A11.8 11.8 0 1 0 12 .2z"/></svg>
+        ${ag ? 'Avisame si vuelve' : 'Comprar por WhatsApp'}
+      </a>
+      <button class="btn btn-share" id="btnShare" aria-label="Compartir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg></button>
+    </div>`;
+  $('#btnShare').onclick = () => compartir(p);
+
+  $('#modal').classList.add('abierto'); $('#modal').setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  history.replaceState(null, '', '?id=' + encodeURIComponent(p.ID));
+}
+function cerrar() {
+  $('#modal').classList.remove('abierto'); $('#modal').setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+  history.replaceState(null, '', location.pathname);
+}
+function irFoto(i) {
+  const n = $('#galeriaTrack').children.length; if (!n) return;
+  fotoActual = (i + n) % n;
+  $('#galeriaTrack').style.transform = `translateX(-${fotoActual * 100}%)`;
+  [...$('#gDots').children].forEach((d, k) => d.classList.toggle('activo', k === fotoActual));
+  [...$('#miniaturas').children].forEach((d, k) => d.classList.toggle('activa', k === fotoActual));
+}
+$('#gPrev').onclick = () => irFoto(fotoActual - 1);
+$('#gNext').onclick = () => irFoto(fotoActual + 1);
+swipe($('#galeria'), d => irFoto(fotoActual + d));
+document.querySelectorAll('[data-cerrar]').forEach(el => el.onclick = cerrar);
+document.addEventListener('keydown', e => {
+  if (!$('#modal').classList.contains('abierto')) return;
+  if (e.key === 'Escape') cerrar();
+  if (e.key === 'ArrowLeft') irFoto(fotoActual - 1);
+  if (e.key === 'ArrowRight') irFoto(fotoActual + 1);
+});
+
+async function compartir(p) {
+  const url = linkProducto(p);
+  if (navigator.share) {
+    try { await navigator.share({ title: p.Producto + ' · DISTRITO®', text: 'Mirá esto en DISTRITO 🔥', url }); return; } catch (e) { if (e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(url); toast('Link copiado 🔗'); }
+  catch { prompt('Copiá el link:', url); }
+}
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('visible'); setTimeout(() => el.classList.remove('visible'), 2200); }
+
+function swipe(el, fn) {
+  let x0 = null;
+  el.addEventListener('touchstart', e => x0 = e.touches[0].clientX, { passive: true });
+  el.addEventListener('touchend', e => {
+    if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0;
+    if (Math.abs(dx) > 40) fn(dx < 0 ? 1 : -1); x0 = null;
+  });
+}
+
+/* ---------- RESTO ---------- */
+function armarFijos() {
+  const items = CONFIG.MARQUESINA.map(t => `<span>${esc(t)}</span>`).join('');
+  $('#marquesina').innerHTML = items + items;
+  $('#beneficios').innerHTML = CONFIG.BENEFICIOS.map(b => `<div class="beneficio">${ICONOS[b.icono] || ''}<h3>${esc(b.titulo)}</h3><p>${esc(b.texto)}</p></div>`).join('');
+  const wa = waLink('Hola DISTRITO! 👑 Quería hacer una consulta.');
+  $('#waFlotante').href = wa; $('#waFooter').href = wa;
+  $('#anio').textContent = new Date().getFullYear();
+}
+window.addEventListener('scroll', () => $('#header').classList.toggle('chico', scrollY > 30), { passive: true });
+
+(async () => {
+  armarFijos();
+  productos = await cargar();
+  if (!productos.length) { $('#grilla').innerHTML = '<p class="vacio">No pudimos cargar el catálogo. Escribinos por WhatsApp.</p>'; return; }
+  armarHero(); armarPills(); armarGrilla();
+  const id = new URLSearchParams(location.search).get('id');
+  if (id) abrir(id);
+})();
+</script>
+</body>
+</html>
