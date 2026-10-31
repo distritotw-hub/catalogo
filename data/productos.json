@@ -9,7 +9,7 @@
    "Categoria": "Accesorios",
    "Talles": "Talle único",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/001-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/001-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -23,8 +23,8 @@
    "Categoria": "Camisetas de fútbol",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/002-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/002-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/002-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/002-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -37,9 +37,9 @@
    "Categoria": "Camisetas de fútbol",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/003-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/003-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/003-3.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/003-1.jpg?v=2",
+   "Foto2": "",
+   "Foto3": "",
    "Foto4": ""
   },
   {
@@ -51,8 +51,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/004-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/004-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/004-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/004-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -65,8 +65,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/005-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/005-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/005-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -79,7 +79,7 @@
    "Categoria": "Shorts y bermudas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/006-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/006-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -93,7 +93,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/007-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/007-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -107,8 +107,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/008-1.jpg",
-   "Foto2": "",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/008-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/008-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -121,7 +121,7 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/009-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/009-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -135,8 +135,8 @@
    "Categoria": "Chombas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/010-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/010-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/010-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -149,7 +149,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/011-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/011-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -163,8 +163,8 @@
    "Categoria": "Camperas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/012-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/012-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/012-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -177,8 +177,8 @@
    "Categoria": "Camperas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/013-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/013-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/013-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -191,8 +191,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/014-1.jpg",
-   "Foto2": "",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/014-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/014-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -205,10 +205,10 @@
    "Categoria": "Shorts y bermudas",
    "Talles": "S - M - L - XL",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/015-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/015-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/015-3.jpg",
-   "Foto4": "https://distritotw-hub.github.io/catalogo/img/015-4.jpg"
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/015-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/015-2.jpg?v=2",
+   "Foto3": "https://distritotw-hub.github.io/catalogo/img/015-3.jpg?v=2",
+   "Foto4": ""
   },
   {
    "ID": "016",
@@ -219,7 +219,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "S - M - L",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/016-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/016-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -233,7 +233,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "S - M - L",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/017-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/017-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -247,8 +247,8 @@
    "Categoria": "Conjuntos",
    "Talles": "S - M - L - XL",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/018-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/018-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/018-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/018-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -261,7 +261,7 @@
    "Categoria": "Camperas",
    "Talles": "M - L - XL",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/019-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/019-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -275,7 +275,7 @@
    "Categoria": "Camperas",
    "Talles": "M - L - XL",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/020-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/020-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -289,7 +289,7 @@
    "Categoria": "Camperas",
    "Talles": "M - L - XL",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/021-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/021-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -303,10 +303,10 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/022-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/022-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/022-3.jpg",
-   "Foto4": "https://distritotw-hub.github.io/catalogo/img/022-4.jpg"
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/022-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/022-2.jpg?v=2",
+   "Foto3": "https://distritotw-hub.github.io/catalogo/img/022-3.jpg?v=2",
+   "Foto4": ""
   },
   {
    "ID": "023",
@@ -317,10 +317,10 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/023-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/023-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/023-3.jpg",
-   "Foto4": "https://distritotw-hub.github.io/catalogo/img/023-4.jpg"
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/023-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/023-2.jpg?v=2",
+   "Foto3": "https://distritotw-hub.github.io/catalogo/img/023-3.jpg?v=2",
+   "Foto4": ""
   },
   {
    "ID": "024",
@@ -331,8 +331,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/024-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/024-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/024-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/024-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -345,8 +345,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/025-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/025-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/025-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/025-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -359,8 +359,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/026-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/026-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/026-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/026-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -373,8 +373,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/027-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/027-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/027-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -387,8 +387,8 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/028-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/028-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/028-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -401,8 +401,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/029-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/029-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/029-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/029-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -415,9 +415,9 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/030-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/030-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/030-3.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/030-1.jpg?v=2",
+   "Foto2": "",
+   "Foto3": "",
    "Foto4": ""
   },
   {
@@ -429,10 +429,10 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/031-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/031-2.jpg",
-   "Foto3": "https://distritotw-hub.github.io/catalogo/img/031-3.jpg",
-   "Foto4": "https://distritotw-hub.github.io/catalogo/img/031-4.jpg"
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/031-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/031-2.jpg?v=2",
+   "Foto3": "https://distritotw-hub.github.io/catalogo/img/031-3.jpg?v=2",
+   "Foto4": ""
   },
   {
    "ID": "032",
@@ -443,7 +443,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/032-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/032-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -457,7 +457,7 @@
    "Categoria": "Camisetas de fútbol",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/033-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/033-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -471,7 +471,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/034-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/034-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -485,7 +485,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/035-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/035-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -499,8 +499,8 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/036-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/036-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/036-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/036-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -513,7 +513,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/037-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/037-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -527,7 +527,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/038-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/038-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -541,7 +541,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/039-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/039-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -555,7 +555,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/040-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/040-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -569,7 +569,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/041-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/041-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -583,7 +583,7 @@
    "Categoria": "Chombas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/042-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/042-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -597,7 +597,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/043-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/043-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -611,7 +611,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/044-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/044-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -625,7 +625,7 @@
    "Categoria": "Camperas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/045-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/045-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -639,8 +639,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/046-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/046-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/046-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -653,7 +653,7 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/047-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/047-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -667,8 +667,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/048-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/048-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/048-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/048-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -681,8 +681,8 @@
    "Categoria": "Zapatillas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/049-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/049-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/049-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/049-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -695,7 +695,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/050-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/050-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -709,8 +709,8 @@
    "Categoria": "Chombas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/051-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/051-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/051-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -723,8 +723,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/052-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/052-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/052-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -737,7 +737,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/053-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/053-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -751,8 +751,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/054-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/054-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/054-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/054-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -765,8 +765,8 @@
    "Categoria": "Zapatillas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/055-1.jpg",
-   "Foto2": "",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/055-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/055-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -779,8 +779,8 @@
    "Categoria": "Zapatillas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/056-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/056-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/056-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -793,7 +793,7 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/057-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/057-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -807,8 +807,8 @@
    "Categoria": "Shorts y bermudas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/058-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/058-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/058-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/058-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -821,7 +821,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/059-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/059-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -835,8 +835,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/060-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/060-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/060-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/060-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -849,8 +849,8 @@
    "Categoria": "Camperas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/061-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/061-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/061-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -863,7 +863,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/062-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/062-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -877,8 +877,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/063-1.jpg",
-   "Foto2": "",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/063-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/063-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -891,7 +891,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/064-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/064-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -905,8 +905,8 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/065-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/065-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/065-1.jpg?v=2",
+   "Foto2": "",
    "Foto3": "",
    "Foto4": ""
   },
@@ -919,7 +919,7 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/066-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/066-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -933,8 +933,8 @@
    "Categoria": "Camperas",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/067-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/067-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/067-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/067-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   },
@@ -947,7 +947,7 @@
    "Categoria": "Pantalones",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/068-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/068-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -961,7 +961,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/069-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/069-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -975,7 +975,7 @@
    "Categoria": "Buzos y hoodies",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/070-1.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/070-1.jpg?v=2",
    "Foto2": "",
    "Foto3": "",
    "Foto4": ""
@@ -989,8 +989,8 @@
    "Categoria": "Remeras",
    "Talles": "",
    "Estado": "Disponible",
-   "Foto1": "https://distritotw-hub.github.io/catalogo/img/071-1.jpg",
-   "Foto2": "https://distritotw-hub.github.io/catalogo/img/071-2.jpg",
+   "Foto1": "https://distritotw-hub.github.io/catalogo/img/071-1.jpg?v=2",
+   "Foto2": "https://distritotw-hub.github.io/catalogo/img/071-2.jpg?v=2",
    "Foto3": "",
    "Foto4": ""
   }

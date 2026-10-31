@@ -24,6 +24,7 @@
   --hueso:#f4f4f2;
   --gris:#8a8a8a;
   --linea:#262626;
+  --foto:#141414;      /* fondo detrás de las fotos */
   --rojo:#e10600;      /* acento "sangre" 🩸 */
   --verde-wa:#25d366;
   --radio:14px;
@@ -59,10 +60,10 @@ a{color:inherit;text-decoration:none}
 .hero-titulo{font-family:var(--display);font-size:clamp(44px,11vw,110px);line-height:.9;letter-spacing:.01em;text-transform:uppercase}
 .hero-titulo span{color:transparent;-webkit-text-stroke:1.5px var(--blanco)}
 .hero-sub{color:var(--gris);margin:10px 0 18px;font-size:15px;max-width:520px}
-.slider{position:relative;border-radius:var(--radio);overflow:hidden;background:var(--hueso)}
+.slider{position:relative;border-radius:var(--radio);overflow:hidden;background:var(--foto)}
 .slides{display:flex;transition:transform .5s cubic-bezier(.7,0,.3,1)}
-.slide{min-width:100%;display:grid;grid-template-columns:1fr;position:relative;color:var(--negro);cursor:pointer}
-.slide img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}
+.slide{min-width:100%;display:grid;grid-template-columns:1fr;position:relative;color:var(--blanco);cursor:pointer}
+.slide img{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--foto)}
 .slide-info{position:absolute;left:0;right:0;bottom:0;padding:18px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:var(--blanco)}
 .slide-tag{display:inline-block;align-self:flex-start;background:var(--rojo);font-size:11px;font-weight:800;letter-spacing:.08em;padding:4px 8px;border-radius:4px;text-transform:uppercase}
 .slide-nombre{font-family:var(--display);font-size:clamp(24px,5vw,40px);text-transform:uppercase;line-height:1;margin:8px 0 4px}
@@ -70,20 +71,20 @@ a{color:inherit;text-decoration:none}
 .flecha{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:rgba(10,10,10,.75);color:#fff;display:grid;place-items:center;z-index:2}
 .flecha.izq{left:10px}.flecha.der{right:10px}
 .dots{position:absolute;top:14px;right:14px;display:flex;gap:6px;z-index:2}
-.dot{width:8px;height:8px;border-radius:99px;background:rgba(0,0,0,.25);transition:all .3s}
-.dot.activo{width:22px;background:var(--negro)}
+.dot{width:8px;height:8px;border-radius:99px;background:rgba(255,255,255,.3);transition:all .3s}
+.dot.activo{width:22px;background:var(--blanco)}
 @media(min-width:820px){
-  .slide{grid-template-columns:1.1fr 1fr;background:var(--hueso)}
-  .slide-info{position:static;background:none;color:var(--negro);display:flex;flex-direction:column;justify-content:center;padding:40px}
+  .slide{grid-template-columns:1.1fr 1fr;background:var(--foto)}
+  .slide-info{position:static;background:none;color:var(--blanco);display:flex;flex-direction:column;justify-content:center;padding:40px}
   .slide-nombre{font-size:52px}
-  .slide img{aspect-ratio:auto;height:480px}
+  .slide img{aspect-ratio:1/1;height:auto;max-height:520px;object-fit:contain}
 }
 
 /* ---------- BOTONES ---------- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase;padding:14px 20px;border-radius:999px;transition:transform .15s, background .2s}
 .btn:active{transform:scale(.97)}
 .btn-blanco{background:var(--blanco);color:var(--negro)}
-.btn-negro{background:var(--negro);color:var(--blanco)}
+.btn-negro{background:var(--blanco);color:var(--negro)}
 .btn-wa{background:var(--verde-wa);color:#06290f}
 .btn-borde{border:1.5px solid currentColor}
 .btn svg{width:18px;height:18px}
@@ -106,8 +107,8 @@ a{color:inherit;text-decoration:none}
 @media(min-width:720px){.grilla{grid-template-columns:repeat(3,1fr);gap:18px}}
 @media(min-width:1024px){.grilla{grid-template-columns:repeat(4,1fr)}}
 .card{position:relative;display:flex;flex-direction:column;cursor:pointer}
-.card-foto{position:relative;border-radius:var(--radio);overflow:hidden;background:#fff;aspect-ratio:1/1}
-.card-foto img{width:100%;height:100%;object-fit:contain;transition:transform .5s, opacity .3s}
+.card-foto{position:relative;border-radius:var(--radio);overflow:hidden;background:var(--foto);aspect-ratio:1/1;border:1px solid var(--linea)}
+.card-foto img{width:100%;height:100%;object-fit:cover;transition:transform .5s, opacity .3s}
 .card-foto img.alt{position:absolute;inset:0;opacity:0}
 @media(hover:hover){.card:hover .card-foto img.alt{opacity:1}.card:hover .card-foto img{transform:scale(1.04)}}
 .badge{position:absolute;top:10px;left:10px;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:4px;background:var(--negro);color:var(--blanco);z-index:2}
@@ -135,13 +136,13 @@ a{color:inherit;text-decoration:none}
 @keyframes sube{from{transform:translateY(100%)}}
 @keyframes fade{from{opacity:0}}
 .modal-cerrar{position:absolute;top:12px;right:12px;z-index:5;width:40px;height:40px;border-radius:50%;background:var(--negro);color:#fff;display:grid;place-items:center;border:1px solid var(--linea)}
-.galeria{position:relative;background:#fff;overflow:hidden}
+.galeria{position:relative;background:var(--foto);overflow:hidden}
 .galeria-track{display:flex;transition:transform .4s ease}
-.galeria-track img{min-width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}
+.galeria-track img{min-width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--foto)}
 .galeria .dots{top:auto;bottom:14px;left:0;right:0;justify-content:center}
 .galeria .flecha{width:36px;height:36px}
 .miniaturas{display:flex;gap:8px;padding:10px 16px 0}
-.miniaturas button{width:58px;height:58px;border-radius:10px;overflow:hidden;background:#fff;border:2px solid transparent;opacity:.6}
+.miniaturas button{width:58px;height:58px;border-radius:10px;overflow:hidden;background:var(--foto);border:2px solid transparent;opacity:.6}
 .miniaturas button.activa{border-color:var(--blanco);opacity:1}
 .miniaturas img{width:100%;height:100%;object-fit:contain}
 .modal-info{padding:20px 20px 28px}
@@ -268,7 +269,7 @@ a{color:inherit;text-decoration:none}
    ========================================================= */
 const CONFIG = {
   // URL de tu Google Apps Script (termina en /exec). Si está vacía, usa data/productos.json
-  SHEET_URL: '',
+  SHEET_URL: 'https://script.google.com/macros/s/AKfycbwkrCdCl5LipoArihneGs14xWopKlhWPZIZxVkPRfcKilnp1HQQBX8c91p0hHk76lLW/exec',
   // WhatsApp de ventas: código de país + número, sin + ni espacios
   WHATSAPP: '5492804574174',
   INSTAGRAM: 'https://www.instagram.com/distrito.tw/',

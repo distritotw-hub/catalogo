@@ -65,3 +65,19 @@ function cargarCatalogoInicial() {
   [60, 260, 110, 380, 300, 150, 120, 110, 220, 220, 220, 220].forEach((w, i) => hoja.setColumnWidth(i + 1, w));
   hoja.getRange(2, 4, filas.length, 2).setWrap(true);
 }
+
+/**
+ * Actualiza SOLO las columnas Foto1..Foto4 con las fotos publicadas en GitHub (por ID).
+ * No toca precios, descripciones ni nada más.
+ */
+function actualizarFotos() {
+  const hoja = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(HOJA);
+  const datos = JSON.parse(UrlFetchApp.fetch(CATALOGO_INICIAL + '?v=' + Date.now()).getContentText());
+  const porId = {};
+  datos.productos.forEach(p => { porId[p.ID] = [p.Foto1 || '', p.Foto2 || '', p.Foto3 || '', p.Foto4 || '']; });
+  const ids = hoja.getRange(2, 1, hoja.getLastRow() - 1, 1).getDisplayValues();
+  ids.forEach((fila, i) => {
+    const fotos = porId[String(fila[0]).trim()];
+    if (fotos) hoja.getRange(i + 2, 9, 1, 4).setValues([fotos]);
+  });
+}
