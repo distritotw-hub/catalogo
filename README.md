@@ -25,10 +25,16 @@ Todo lo que cambies en el Sheets aparece en la web al recargarla. No hace falta 
    (github.com/distritotw-hub/catalogo → carpeta `img` → **Add file → Upload files**)
    y usá el link `https://distritotw-hub.github.io/catalogo/img/NOMBRE.jpg`.
    También sirve cualquier link directo a una imagen (.jpg / .png).
-3. Para que todas tengan el mismo fondo blanco, usá fotos con fondo blanco y la prenda centrada (cuadradas 1000×1000 ideal).
+3. Las fotos del catálogo son cuadradas (1000×1000) con la prenda centrada sobre fondo gris oscuro con luz suave.
+   Para que una prenda nueva combine, usá el mismo estilo (o pedile a Claude que la procese igual).
 
 ### Sacar una prenda
 Borrá la fila, o poné `Agotado` en Estado si querés que se siga viendo.
+
+### Funciones del script (Extensiones → Apps Script)
+- `doGet`: es lo que lee la web. No hace falta ejecutarla.
+- `cargarCatalogoInicial`: solo se usa una vez con la hoja vacía.
+- `actualizarFotos`: reescribe Foto1–Foto4 con las fotos de GitHub según el ID, sin tocar precios ni textos.
 
 ## Cambiar otras cosas
 En `index.html` (se edita desde GitHub con el ícono del lápiz), al principio del `<script>`, en el bloque **CONFIG**:
