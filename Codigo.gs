@@ -50,8 +50,8 @@ function cargarCatalogoInicial() {
   hoja.clear();
   hoja.getRange(1, 1, 1, encabezados.length).setValues([encabezados])
     .setFontWeight('bold').setBackground('#0a0a0a').setFontColor('#ffffff');
-  hoja.getRange(2, 1, filas.length, encabezados.length).setValues(filas).setVerticalAlignment('top');
   hoja.getRange(2, 1, filas.length, 1).setNumberFormat('@'); // IDs como texto (001, 002…)
+  hoja.getRange(2, 1, filas.length, encabezados.length).setValues(filas).setVerticalAlignment('top');
   hoja.setFrozenRows(1);
 
   // Precio resaltado para completarlo fácil
